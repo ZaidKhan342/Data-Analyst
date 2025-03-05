@@ -1,9 +1,10 @@
-use project;  
+use project; 
 describe cfe;
  select * from cfe; 
 Select concat(Round(sum(transaction_qty*unit_price)/1000,1),"k")As total_sales
 from cfe
 where month(transaction_date)=4;
+
 
 -- selected Month / CM - May=5
 -- PM - April= 4
